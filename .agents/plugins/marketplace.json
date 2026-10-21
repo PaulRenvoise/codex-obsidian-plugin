@@ -8,7 +8,7 @@
       "name": "obsidian",
       "source": {
         "source": "local",
-        "path": "./plugins/obsidian-local"
+        "path": "./plugins/obsidian"
       },
       "policy": {
         "installation": "AVAILABLE",

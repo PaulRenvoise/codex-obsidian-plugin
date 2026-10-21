@@ -6,7 +6,7 @@ from pathlib import Path
 import subprocess
 import sys
 ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT / 'plugins/obsidian-local/scripts'))
+sys.path.insert(0, str(ROOT / 'plugins/obsidian/scripts'))
 from settings_store import read_values, update_values
 
 p = argparse.ArgumentParser(description='Configure the Obsidian plugin. Prefer the native plugin settings page.')

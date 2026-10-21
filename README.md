@@ -46,7 +46,7 @@ Ask Codex to “find my notes about gardening,” “summarize this Obsidian not
 ## Test
 
 ```sh
-python3 -m unittest discover -s plugins/obsidian-local/tests -v
+python3 -m unittest discover -s plugins/obsidian/tests -v
 ```
 
 ## License
