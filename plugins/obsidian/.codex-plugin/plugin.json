@@ -1,10 +1,12 @@
 {
   "name": "obsidian",
   "version": "1.2.1",
+  "homepage": "https://github.com/PaulRenvoise/codex-obsidian-plugin",
   "description": "Use the official Obsidian CLI with native plugin settings for vault selection and access preferences.",
   "skills": "./skills/",
   "interface": {
-    "displayName": "Obsidian"
+    "displayName": "Obsidian",
+    "websiteURL": "https://github.com/PaulRenvoise/codex-obsidian-plugin"
   },
   "mcpServers": "./.mcp.json"
 }
