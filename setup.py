@@ -25,4 +25,4 @@ except (ValueError, OSError) as exc:
     p.error(str(exc))
 if a.install:
     subprocess.run(['codex', 'plugin', 'marketplace', 'add', str(ROOT)], check=True)
-    subprocess.run(['codex', 'plugin', 'add', 'obsidian@obsidian-local-source'], check=True)
+    subprocess.run(['codex', 'plugin', 'add', 'obsidian@codex-obsidian-plugin'], check=True)

@@ -1,5 +1,5 @@
 {
-  "name": "obsidian-local-source",
+  "name": "codex-obsidian-plugin",
   "interface": {
     "displayName": "Obsidian"
   },
