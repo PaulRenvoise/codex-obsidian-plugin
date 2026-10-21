@@ -1,0 +1,10 @@
+{
+  "name": "obsidian",
+  "version": "1.2.1",
+  "description": "Use the official Obsidian CLI with native plugin settings for vault selection and access preferences.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Obsidian"
+  },
+  "mcpServers": "./.mcp.json"
+}

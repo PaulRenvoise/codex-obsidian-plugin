@@ -1,0 +1,20 @@
+{
+  "name": "obsidian-local-source",
+  "interface": {
+    "displayName": "Obsidian"
+  },
+  "plugins": [
+    {
+      "name": "obsidian",
+      "source": {
+        "source": "local",
+        "path": "./plugins/obsidian-local"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
