@@ -7,7 +7,7 @@ A Codex plugin for searching, reading, and managing notes in a local Obsidian va
 - Codex with plugin support and the `codex` command available.
 - Python 3.10 or later (`python3` on your PATH).
 - Obsidian running with its CLI enabled and your vault registered in the app.
-- macOS or Linux. Windows and Android execution are not supported.
+- macOS or Linux.
 
 ## Install
 
@@ -37,7 +37,7 @@ python3 setup.py --vault "/path/to/your/vault"
 
 Settings stay on your computer at `$CODEX_HOME/plugin-data/obsidian/settings.json`, defaulting to `~/.codex/plugin-data/obsidian/settings.json`. No vault path, notes, or credentials are included in this repository.
 
-The small MCP server provides settings only; note operations use the official CLI. Read-only mode applies to this plugin's wrapper. Android notes are accessible through your existing sync service and the local copy of the vault on your computer.
+The small MCP server provides settings only; note operations use the official CLI. Read-only mode applies to this plugin's wrapper.
 
 ## Use
 
