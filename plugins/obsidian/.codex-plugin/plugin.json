@@ -6,7 +6,11 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Obsidian",
-    "websiteURL": "https://github.com/PaulRenvoise/codex-obsidian-plugin"
+    "websiteURL": "https://github.com/PaulRenvoise/codex-obsidian-plugin",
+    "composerIcon": "./assets/obsidian.svg",
+    "composerIconDark": "./assets/obsidian-dark.svg",
+    "logo": "./assets/obsidian.svg",
+    "logoDark": "./assets/obsidian-dark.svg"
   },
   "mcpServers": "./.mcp.json"
 }
